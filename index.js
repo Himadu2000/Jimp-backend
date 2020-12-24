@@ -7,7 +7,7 @@ const cors = require("cors");
 const PORT = process.env.PORT || 3000;
 
 // app.use(helmet());
-app.use(cors({ origin: "http://localhost:8000" }));
+app.use(cors({ origin: "https://image-processor-20142.web.app/" }));
 // app.all("*", (req, res, next) => {
 //   res.header("Access-Control-Allow-Origin", `http://localhost:8000`);
 //   next();
