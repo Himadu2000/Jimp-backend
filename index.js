@@ -28,9 +28,6 @@ app.post("/", upload.array("photos"), (req, res) => {
       })
       .catch(err => console.error(err))
   })
-  // res.set("Content-Type", "image/png");
-  // res.send(Buffer(processedImages));
-  // res.send(Buffer(processedImages));
 })
 
 app.listen(PORT, () => {
